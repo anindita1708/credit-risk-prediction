@@ -1,0 +1,6 @@
+{
+    "model": "XGBoost",
+    "threshold": 0.6500000000000001,
+    "selection_method": "Maximum F1 on validation set",
+    "validation_range": "0.10 to 0.70"
+}
