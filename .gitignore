@@ -1,4 +1,31 @@
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+
+# Secrets
+.env
+
+# Datasets
+data/raw/*
+data/processed/*
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.hdf5
+
+# IDE
+.vscode/
 # Python cache
 __pycache__/
 *.py[cod]
